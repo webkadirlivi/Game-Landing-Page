@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://db.onlinewebfonts.com/c/f189d453b2ffa65030b7586363b52ca4?family=HFF+Low+Sun" rel="stylesheet"
+        type="text/css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <title>Game Landingpage</title>
 </head>
@@ -12,11 +14,8 @@
 <body>
 
     <header>
-        <a href="" class="logo">
+        <a href="index.html" class="logo">
             <img src="./images/logo_white.svg" alt="">
-        </a>
-        <a href="" class="menu">
-            <ion-icon name="apps-outline"></ion-icon>
         </a>
         <ul class="nav">
             <li><a href="">Games</a></li>
@@ -28,12 +27,34 @@
             <input type="text" placeholder="Search...">
             <ion-icon name="search-outline"></ion-icon>
         </div>
-        <ul class="nav-collapse"> <!-- For mobile design-->
-            <li><a href="">Games</a></li>
-            <li><a href="">Team</a></li>
-            <li><a href="">Jobs</a></li>
-            <li><a href="">Blog</a></li>
-        </ul>
+
+        <div id="menuToggle">
+            <input type="checkbox" />
+
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Info</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+                <a href="https://erikterwan.com/" target="_blank">
+                    <li>Show me more</li>
+                </a>
+            </ul>
+        </div>
+
     </header>
 
     <!-- Slider main container -->
@@ -43,12 +64,196 @@
             <!-- Slides -->
             <div class="swiper-slide">
                 <img src="./images/bg/cardboard.jpg" alt="cardboard-town">
+                <div class="backscene">
+                    <video src="./videos/movie480_vp9.mp4" autoplay muted loop></video>
+                </div>
+                <div class="banner">
+                    <div class="left">
+                        <div class="features">
+                            <div class="steam-rating">
+                                <span class="icons"><a href="https://store.steampowered.com/app/2198070/Cardboard_Town/"
+                                        target="_blank"><ion-icon name="logo-steam"></ion-icon></a></span>
+
+                                <div class="content">
+                                    <span class="subtitle">Lorem lorem lorem</span>
+                                    <h4>Awasome</h4>
+                                    <span>lorem lorem</span>
+                                </div>
+                            </div>
+                            <div class="steam-rating">
+                                <span class="icons"><a href="https://store.steampowered.com/app/2198070/Cardboard_Town/"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a></span>
+
+                                <div class="content">
+                                    <span class="subtitle">Lorem lorem lorem</span>
+                                    <h4>Buy now</h4>
+                                    <span>lorem lorem</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h1>Cardboard Town</h1>
+                        <p>Cardboard Town, sehir insa etme üzerine kurulu bir kart oyunudur. Kaynaklarini yönet,
+                            gelistirmeleri aç, kart çek ve sehrini büyüt! Rastgele olaylar, görev kartlari ve
+                            opsiyonlar, her bir turu birbirinden farkli kiliyor. Proje Kartlarini Bina Kartlariyla
+                            birlikte akillica kullanmayi unutma.
+                    </div>
+                    <div class="right">
+                        <ul class="desc">
+                            <li>
+                                <h4>
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    Lorem lorem
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, harum.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    Lorem lorem
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, harum.
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="trailer">
+                            <h2>Cardboard Town Game Trailer</h2>
+                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/JJ6ebk4oWts"
+                                title="Cardboard Town Demo Trailer" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="swiper-slide">
                 <img src="./images/bg/ligth-bg.jpg" alt="light">
+                <img src="./images/bg/cardboard.jpg" alt="cardboard-town">
+                <div class="backscene">
+                    <video src="./videos/movie480_vp9.mp4" autoplay muted loop></video>
+                </div>
+                <div class="banner">
+                    <div class="left">
+                        <div class="features">
+                            <div class="steam-rating">
+                                <span class="icons"><a href="https://www.youtube.com/watch?v=N4IcCaAeP1c"
+                                        target="_blank"><ion-icon name="logo-steam"></ion-icon></a></span>
+
+                                <div class="content">
+                                    <span class="subtitle">Lorem lorem lorem</span>
+                                    <h4>Awasome</h4>
+                                    <span>lorem lorem</span>
+                                </div>
+                            </div>
+                            <div class="steam-rating">
+                                <span class="icons"><a href="https://www.youtube.com/watch?v=JEoo4jDHGyc"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a></span>
+
+                                <div class="content">
+                                    <span class="subtitle">Lorem lorem lorem</span>
+                                    <h4>Buy now</h4>
+                                    <span>lorem lorem</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h1>Lighthouse Keeper</h1>
+                        <p>Minik bir adadaki bu deniz feneri artık senin sorumluluğunda. Avlan, malzeme topla, 11
+                            adaları keşfet ve asıl görevin olan deniz fenerinin çalışmaya devam ettiğinden emin ol!
+                    </div>
+                    <div class="right">
+                        <ul class="desc">
+                            <li>
+                                <h4>
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    Lorem lorem
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, harum.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    Lorem lorem
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, harum.
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="trailer">
+                            <h2>Lighthouse Keeper Game Trailer</h2>
+                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/JEoo4jDHGyc"
+                                title="Cardboard Town Demo Trailer" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="swiper-slide">
                 <img src="./images/bg/havsala-bg.jpg" alt="havsala">
+                <img src="./images/bg/cardboard.jpg" alt="cardboard-town">
+                <div class="backscene">
+                    <video src="./videos/movie480_vp9.mp4" autoplay muted loop></video>
+                </div>
+                <div class="banner">
+                    <div class="left">
+                        <div class="features">
+                            <div class="steam-rating">
+                                <span class="icons"><a
+                                        href="https://store.steampowered.com/app/1732750/Havsala_Into_the_Soul_Palace/?curator_clanid=42978693"
+                                        target="_blank"><ion-icon name="logo-steam"></ion-icon></a></span>
+
+                                <div class="content">
+                                    <span class="subtitle">Lorem lorem lorem</span>
+                                    <h4>Awasome</h4>
+                                    <span>lorem lorem</span>
+                                </div>
+                            </div>
+                            <div class="steam-rating">
+                                <span class="icons"><a
+                                        href="https://store.steampowered.com/app/1732750/Havsala_Into_the_Soul_Palace/?curator_clanid=42978693"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a></span>
+
+                                <div class="content">
+                                    <span class="subtitle">Lorem lorem lorem</span>
+                                    <h4>Buy now</h4>
+                                    <span>lorem lorem</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h1>Havsala</h1>
+                        <p>Havsala, tarihi referanslar ve mistisizmle dolu, zengin hikaye anlatımına sahip, araştırmaya
+                            dayalı bir bulmaca oyunudur. Tek bir ruhun geçmiş yaşamlarının ardında bıraktığı ipuçlarını
+                            bulmak için odayı tara, bulmacaları çöz ve Ruh Palas'ın gizemlerini keşfet.
+                    </div>
+                    <div class="right">
+                        <ul class="desc">
+                            <li>
+                                <h4>
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    Lorem lorem
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, harum.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    Lorem lorem
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, harum.
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="trailer">
+                            <h2>Havsala Game Trailer</h2>
+                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/N4IcCaAeP1c"
+                                title="Cardboard Town Demo Trailer" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- If we need pagination -->
@@ -58,9 +263,15 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
 
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
+
     </div>
+
+    <ul class="social">
+        <li><a href="https://twitter.com/StrateraGames"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/strateragames/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/strateragames/"><ion-icon name="logo-discord"></ion-icon></a></li>
+    </ul>
+
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
